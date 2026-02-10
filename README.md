@@ -1,5 +1,5 @@
 <p align="center">
-
+  <img width="1024" height="360" alt="aspects_reclaimed" src="https://github.com/user-attachments/assets/1c5fc866-e863-45ff-8f00-8fadd7baa52a" />
 </p>
 
 <p align="center">
