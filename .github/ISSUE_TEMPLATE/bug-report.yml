@@ -1,0 +1,104 @@
+name: "Bug Report"
+description: Report something that isn't working as expected.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Bug Report
+
+  - type: input
+    id: title
+    attributes:
+      label: Bug Summary
+      description: Provide a brief, descriptive title for the bug.
+      placeholder: "Example: 'Issue when using X item at Y during Z'"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the bug in detail.
+      placeholder: |
+        What happened?  
+        What did you expect to happen?  
+        Any relevant error messages or context?
+      render: markdown
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Help us reproduce the issue by listing detailed steps.
+      placeholder: |
+        1. Use item X  
+        2. Place block X next to Y  
+        3. Issue happens  
+      render: markdown
+    validations:
+      required: true
+
+  - type: input
+    id: minecraft_version
+    attributes:
+      label: Minecraft Version
+      description: Which Minecraft version(s) did this occur in?
+      placeholder: "Example: 1.21.5 or 1.21.x"
+    validations:
+      required: true
+
+  - type: input
+    id: filched_datapack_version
+    attributes:
+      label: Datapack Version
+      description: Which version of the datapack did this occur in?
+      placeholder: "Example: v1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: filched_resourcepack_version
+    attributes:
+      label: Resource Pack Version
+      description: Which version of the resource pack did this occur in?
+      placeholder: "Example: v1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: aspects_version
+    attributes:
+      label: Aspects Version
+      description: Which version of Aspects are you using?
+      placeholder: "Example: v1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: mod_loader
+    attributes:
+      label: Mod Loader (if applicable)
+      description: If using a mod loader, specify the name and version.
+      placeholder: "Example: Fabric 0.16.14, Neoforge 21.6.12-beta"
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Logs / Crash Reports (if any)
+      description: Paste logs directly here or link to a Gist/Pastebin.
+      placeholder: "Paste logs or crash reports here."
+      render: text
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched existing issues and this is not a duplicate.
+          required: true
+        - label: I have ensured my report does not include personal information like public IP addresses.
+          required: true

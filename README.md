@@ -1,0 +1,80 @@
+<p align="center">
+
+</p>
+
+<p align="center">
+  <a href="https://modrinth.com/datapack/corrupted-aspects-reclaimed" style="text-decoration:none"><img src="https://img.shields.io/badge/Modrinth-Download-5DA545?style=for-the-badge&logo=modrinth&logoColor=white" alt="Download on Modrinth"></a><a href="https://www.curseforge.com/minecraft/mc-mods/aspects-reclaimed" style="text-decoration:none"><img src="https://img.shields.io/badge/CurseForge-Download-ff7c00?style=for-the-badge&logo=curseforge&logoColor=white" alt="Download on CurseForge"></a><a href="https://www.planetminecraft.com/data-pack/aspects-filcher-s-limbo-1-21-5/" style="text-decoration:none">
+</p>
+
+<p align="center">
+  <a href="https://discord.gg/WCxY5AzfA4">
+    <img
+      src="https://img.shields.io/badge/Discord-Join%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white"
+      alt="Join our Discord"
+    />
+  </a>
+</p>
+
+# Aspects: Reclaimed | A Minecraft Datapack Add-On for [Aspects](https://modrinth.com/datapack/corrupted-aspects)
+
+> This addon contains content that did not make it to the main modification.
+> Currently it contains 7 new Aspects with potentially more to come!
+
+## Project Links
+Modules
+
+- [Reclaimed Datapack](https://github.com/CyraLX/Reclaimed-Datapack)
+- [Reclaimed Resourcepack](https://github.com/CyraLX/Reclaimed-Resource-Pack)
+
+Issue Tracker
+
+- [Report a Bug or Suggest a Feature](https://github.com/CyraLX/Aspects-Reclaimed/issues)
+
+## Features
+### Aspects
+- **Dragonkin:** Colossal and powerful winged dragon creatures unnaturally bound to a humanoid body.
+- **Frostling:** Dancer of Ice and very vocal haters of the hot.
+- **Pebblemite:** Born from the stone, seeks the stone, their bug like form makes them hard to catch, but also becomes their biggest weakness.
+- **Remnant:** Tall and capable of controling gravity itself. Can create teleportation points.
+- **Voidborne:** Void thing capable of storing mobs themselves and retrieving them on command.
+- **Phoenix:** Winged daredevils that seek nothing but the thrill of adrenaline. Great at lower health levels.
+- **Morphling:** Evolving and adaptable form changeling able to adapt to almost any environment.
+
+<details>
+<summary>See Available Aspects</summary>
+
+| Aspect    | Effect(s) | Focus Ability(s) |
+|:----------|:-----------|:----------------|
+| **Dragonkin** | - Extremely tall with higher reach and health<br>- Much higher health and armor<br>- Starts with an Elytra that can hover<br>- More damage with a Dragon Head | - Grants Regeneration and Resistance |
+| **Frostling** | - Less health<br>- Stronger in Cold Biomes<br>- Weaker in Hot Biomes<br>- Faster on Ice | - Makes nearby ice denser |
+| **Pebblemite** | - Smaller and weaker<br>- Faster and stronger on stone-like blocks | - Teleports a very short distance through stone-like blocks |
+| **Remnant** | - Taller with more health<br>- Takes damage from water<br>- Has much less gravity pull<br>- Can increase gravity pull when sneaking<br>- Taking damage has a chance to randomly teleport the user | - Save a teleport position<br>- Teleport to saved location while saving current location |
+| **Voidborne** | - Smaller and weaker<br>- Sneaking teleports nearby items<br>- Taking damage has a small chance to randomly teleport the attacker | - Store a non-powerful entity<br>- Select and check stored entities<br>- Summon a selected stored entity<br>- Summon all stored entites at once |
+| **Phoenix** | - Starts with an Elytra that is accelerates faster<br>- Takes water damage<br>- Weaker when healthy<br>- Stronger the weaker it gets | - Damage self for Resistance<br>- Launch into the air while in Lava |
+| **Morphling** | - Smaller with Less Health<br>- Has unlockable forms Fire and Void<br>- Faster but taller in Fire form<br>- Tankier but even more taller in Void form<br>- Takes water damage in Fire and Void forms | - Forcefully change forms<br>- Dash in water in Aquatic form<br>- Damage self for an explosion centered on them<br>- Use Food Levels to Dash in Void form |
+
+</details>
+
+## In-Game Documentation *(1.21.6+)*
+
+This extends the base mods documentation
+
+Access from the Pause Menu → **Aspects Menu**
+
+Includes:
+- List of Aspects and their information
+
+## FAQ
+
+> *Why is there a missing Resource Pack?*
+
+Likely due to the downloaded Datapack version. You **need** to download the bundled Resource Pack from the same download location where you got the Datapack.
+
+The download for it can be found always on the version page directly, not on the main page of this modification.
+
+Below is an example what the Datapack (top) and Resource Pack (bottom) downloads look like on Modrinth:
+![Datapack and Resource Pack download examples](https://cdn.modrinth.com/data/Y3QzViMQ/images/d6fecb01cd0e74d4bea75dcfc462d500d42cf068.png)
+
+> *My Mods button is overlapping the Aspects button in the Pause Menu!*
+
+This issue can be the fault of the Mod Menu (Fabric) mod itself. Make sure that in the Mod Menu settings the **Game Menu** option is **NOT** set to **insert**, if it is, set it to anything else.
