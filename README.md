@@ -1,23 +1,6 @@
-<p align="center">
-  <img width="1024" height="360" alt="aspects_reclaimed" src="https://github.com/user-attachments/assets/1c5fc866-e863-45ff-8f00-8fadd7baa52a" />
-</p>
+![Banner](https://cdn.modrinth.com/data/Y3QzViMQ/images/a26b427556f27a70a28432935267a05fabf99caf.png)
 
-<p align="center">
-  <a href="https://modrinth.com/datapack/corrupted-aspects-reclaimed" style="text-decoration:none"><img src="https://img.shields.io/badge/Modrinth-Download-5DA545?style=for-the-badge&logo=modrinth&logoColor=white" alt="Download on Modrinth"></a><a href="https://www.curseforge.com/minecraft/mc-mods/aspects-reclaimed" style="text-decoration:none"><img src="https://img.shields.io/badge/CurseForge-Download-ff7c00?style=for-the-badge&logo=curseforge&logoColor=white" alt="Download on CurseForge"></a><a href="https://www.planetminecraft.com/data-pack/aspects-filcher-s-limbo-1-21-5/" style="text-decoration:none">
-</p>
-
-<p align="center">
-  <a href="https://discord.gg/WCxY5AzfA4">
-    <img
-      src="https://img.shields.io/badge/Discord-Join%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white"
-      alt="Join our Discord"
-    />
-  </a>
-</p>
-
-# Aspects: Reclaimed | A Minecraft Datapack Add-On for [Aspects](https://modrinth.com/datapack/corrupted-aspects)
-
-> This addon contains content that did not make it to the main modification.
+> This addon contains content that did not make it to the main modification.  
 > Currently it contains 7 new Aspects with potentially more to come!
 
 ## Project Links
@@ -78,3 +61,4 @@ Below is an example what the Datapack (top) and Resource Pack (bottom) downloads
 > *My Mods button is overlapping the Aspects button in the Pause Menu!*
 
 This issue can be the fault of the Mod Menu (Fabric) mod itself. Make sure that in the Mod Menu settings the **Game Menu** option is **NOT** set to **insert**, if it is, set it to anything else.
+
